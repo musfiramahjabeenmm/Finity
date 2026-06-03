@@ -3,7 +3,7 @@
 
 Finity is a conversational, mobile-first financial OS built for Indian small business owners such as kirana stores, manufacturers, traders, service providers who need to manage their finances without being accountants. You talk to it. It handles the rest.
 
----
+
 
 ## The Problem
 
@@ -11,7 +11,7 @@ India has 63 million MSMEs. Most of them manage finances in paper notebooks, men
 
 Finity is built for the business owner, not the accountant.
 
----
+
 
 ## What Finity Does
 
@@ -23,7 +23,7 @@ Finity is built for the business owner, not the accountant.
 - **Payroll calculation** — PF, ESI, TDS handled automatically per Indian regulations
 - **No bank API** — you control your data; import from bank exports only
 
----
+
 
 ## Tech Stack
 
@@ -72,7 +72,7 @@ Finity is built for the business owner, not the accountant.
 ### Deployment — Railway
 **Why:** Railway hosts FastAPI, PostgreSQL, and Redis under one platform with a free tier sufficient for development and early users. No DevOps configuration required — deploy from GitHub, environment variables set in the dashboard, and it runs.
 
----
+
 
 ## Agent Architecture
 
@@ -105,7 +105,7 @@ Finity uses 4 specialized AI agents, each with a clear and justified role:
 | Conversational queries | Claude | Nuanced, context-aware responses |
 | Simple DB aggregations | No LLM | Direct SQL — fastest and cheapest |
 
----
+
 
 ## Authentication Flow
 
@@ -128,7 +128,7 @@ New Device
 Inactivity > 5 min → PIN required again
 ```
 
----
+
 
 ## What's Not in V1 (and Why)
 
@@ -140,7 +140,7 @@ Inactivity > 5 min → PIN required again
 | Regional language support | V2 — Whisper API + translation layer planned |
 | Automated GST filing | V2 — GST Suvidha Provider API integration |
 
----
+
 
 ## V2 Roadmap
 
@@ -151,7 +151,7 @@ Inactivity > 5 min → PIN required again
 - Invoice generation and payment follow-up agent
 - WhatsApp channel alongside the app (once production-ready)
 
----
+
 
 ## Development Cost
 
@@ -165,6 +165,6 @@ Inactivity > 5 min → PIN required again
 | Supabase Auth | Free (up to 50,000 users) |
 | **Total** | **Under ₹1,000 for full development** |
 
----
+
 
 *Finity — because your business deserves a CFO, not a spreadsheet.*
